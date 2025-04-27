@@ -1,8 +1,9 @@
 {
   "name": "template-application",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "yarn@4.1.1",
+  "description": "A CLI to scaffold Vite + React + Tailwind projects with Yarn and Corepack managed installs.",
   "type": "module",
   "bin": {
     "vite-start-dim": "./index.js"
