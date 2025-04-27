@@ -1,13 +1,10 @@
 {
-  "name": "template-application",
-  "private": false,
+  "name": "vite-start-dim",
   "version": "0.0.1",
   "packageManager": "yarn@4.1.1",
   "description": "A CLI to scaffold Vite + React + Tailwind projects with Yarn and Corepack managed installs.",
   "type": "module",
-  "bin": {
-    "vite-start-dim": "./index.js"
-  },
+  "bin": "./index.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
